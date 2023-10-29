@@ -1,0 +1,11 @@
+android_app_import {
+	name: "NestLauncherPrebuilt",
+	apk: "NestLauncherPrebuilt.apk",
+	overrides: ["Launcher3", "Launcher3QuickStep"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
